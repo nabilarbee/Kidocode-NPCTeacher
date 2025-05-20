@@ -64,7 +64,7 @@ Ensure you have the following installed:
 ### API Setup
 >[!WARNING]
 > **DO NOT UPLOAD YOUR API KEY TO THE GITHUB REPO**
-    1. Get an API key from the LLM provider of your choice.
-    2. Safely keep your API key. (NEVER PUSH IT ONTO GITHUB.)
-    3. Add your API key to the server.js file.
-    4. After making modifications, restart the NodeJS server.
+1. Get an API key from the LLM provider of your choice.
+2. Safely keep your API key. (NEVER PUSH IT ONTO GITHUB.)
+3. Add your API key to the server.js file.
+4. After making modifications, restart the NodeJS server.
