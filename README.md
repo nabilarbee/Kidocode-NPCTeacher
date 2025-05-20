@@ -72,3 +72,7 @@ Ensure you have the following installed:
 2. Safely keep your API key. (NEVER PUSH IT ONTO GITHUB.)
 3. Add your API key to the server.js file.
 4. After making modifications, restart the NodeJS server.
+
+## Key API Setup References
+1. [Joe Shen's AI integrated Roblox NPC](https://github.com/WongJoeShen/KC-RobloxNPC)
+2. [Setting up The API Server + Trainer NPC](https://youtu.be/DpPugbWPViw?si=SspoBODLu9MuVXZj)
