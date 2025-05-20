@@ -16,6 +16,10 @@ Ensure you have the following installed:
 ## Structure
 ```sh
 📦 Kidocode-NPCTeacher
+├── NPC_TeacherKC.rbxlx    # Roblox (RBXLX) File with NPC already set up
+│
+├── NPC_TeacherKC.rbxl     # Roblox File with NPC already set up
+│
 ├── 📂 src
 │   ├── 📂 StarterGui                # Files that belong in StarterGui Folder in Roblox
 │   │   └── 📜 dialogueGUI.rbxm      # Insert into StarterGui in Roblox
