@@ -44,6 +44,9 @@ Ensure you have the following installed:
 ## How It Works
 
 ### NPC Teaching Flow
+The figure below shows the FSM Model I have designed for this NPC. Designed on [Evan Wallace's FSM Designer](https://madebyevan.com/fsm/)
+![Teacher FSM Model](./TeacherFSM_Model.png?raw=true "Teacher FSM Model")
+
     1. NPC checks if there are any players in its range.
 
     2. If there are any, NPC walks up to the nearest player in range.
