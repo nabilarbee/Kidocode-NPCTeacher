@@ -47,6 +47,27 @@ Ensure you have the following installed:
 The figure below shows the FSM Model I have designed for this NPC. Designed on [Evan Wallace's FSM Designer](https://madebyevan.com/fsm/)
 ![Teacher FSM Model](./TeacherFSM_Model.png?raw=true "Teacher FSM Model")
 
+```
+A - Idle/Searching
+B - GoToPlayer
+C - AskQuestion
+D - WaitForAnswer
+G - Check Answer
+E - Attack Player
+F - Return To NPC Spawn
+a0 - Loops back to Idle/Searching
+a1 - GoToPlayer
+b0 - AskQuestion
+b1 - failed to find player, back to Idle/Searching
+c0 - Starts WaitForAnswer Timer
+d0 - Answer is given go to CheckAnswer
+d1 - Answer not given go to Attack Player
+e0 - Go to Return to NPC Spawn
+g0 - Go To Return to NPC Spawn
+g1 - Answer wrong go attack player
+f0 - go to idle/searching
+```
+
     1. NPC checks if there are any players in its range.
 
     2. If there are any, NPC walks up to the nearest player in range.
